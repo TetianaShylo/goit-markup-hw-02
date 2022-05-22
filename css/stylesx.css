@@ -70,3 +70,108 @@
 .contact:hover {
     color: #2196F3;
 }
+
+.all {
+    justify-content: space-between;
+   
+
+}
+
+.div-button {
+    margin-right: 10px;
+    text-align: center;
+}
+
+.first-button {
+    margin-right: 10px;
+    background-color: #2196F3;
+    border: 1px solid #2196F3;
+    padding: 10px 20px;
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.a-button {
+    margin-right: 10px;
+    background-color: #F5F4FA;
+    border: 1px solid #F5F4FA;
+    padding: 10px 20px;
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #212121;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.ul-portfolio {
+    list-style: none;
+    margin: 0 auto;
+   
+}  
+
+
+.li-team {
+   
+} 
+
+.h3-team {
+   
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+
+    background-color: #2F303A;
+    height: 250px;
+    width: auto;
+
+}
+
+.a-address {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.aa-address {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.li-address {
+    list-style: none;
+
+
+}
+
+.div-footer {
+
+    padding-left: 215px;
+    padding-top: 60px;
+}

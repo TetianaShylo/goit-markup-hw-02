@@ -296,8 +296,16 @@ text-align: center;
 
 }
 
+.portfolio {
+    width: 1600px;
+}
 
-.li-team {}
+
+
+
+.li-team {
+    margin-bottom: 30px;
+}
 
 .h3-team {}
 

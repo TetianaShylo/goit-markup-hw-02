@@ -1,6 +1,9 @@
 .header {
     padding: 80px;
     background-color: #FFFFFF;
+    display: flex;
+    width: 1600px;
+    
 }
 
 
@@ -61,16 +64,19 @@
 }
 
 .contacts {
-    padding: 50px 0px 50px 0px;
-    margin-right: 50px;
+    list-style: none;
     font-family: 'Roboto',
     sans-serif;
     color: #212121;
     text-align: right;
+    
+    display: inline-flex;
+
+    
 }
 
 .contact {
-   
+    
     margin-right: 50px;
     color: #212121;
     text-decoration: none;
@@ -81,18 +87,26 @@
 }
  
 .navigation {
-  
+text-align: left;
+
+margin-top: 5px;
+margin-right: 500px;
+
+
+
 }
 
 .center {
     padding-top: 20px;
-    width: auto;
+    width: 1600px;
     height: 600px;
     background-color: #2F303A;
+
 }
 
 .text {
-    text-align: center;
+    margin: 40px auto;
+    width: 700px;
     font-family: 'Roboto',
      sans-serif;
     font-style: normal;
@@ -115,23 +129,40 @@
     text-transform: uppercase;
     color: #fff;
     font-weight: 600;
+    
 }
 
-.div {
-    width: 700px;
-    margin-top: 180px;
-    margin-left: auto;
-    margin-right: auto;
+.div-button {
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    text-align: center;
+
+}
+
+.first-button {
+position: absolute;
+width: 73px;
+height: 38px;
+left: 495px;
+top: 174px;
+background: #2196F3;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+0px 1px 2px rgba(0, 0, 0, 0.08),
+0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+    font-weight: 600;
 }
 
 .action {
     text-align: center;
+
 }
 
 .privileges {
     padding-top: 120px;
-    margin: auto;
-    width: auto;
+    
+    width: 1600px;
     height: 300px;
     background-color: #FFFFFF;
 }
@@ -181,7 +212,7 @@
 
 .img{
     padding-top: 120px;
-    width: auto;
+    width: 1600px;
     background-color: #FFFFFF;
     padding-bottom: 95px;
 
@@ -222,6 +253,7 @@
 background-color: #F5F4FA;
 padding-bottom: 95px;
 text-align: center;
+width: 1600px;
 }
 
 .h2-team {
@@ -248,66 +280,72 @@ text-align: center;
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
     margin-right: 30px;
+    width: 270px;
+    height: 368px;
+    
+   
+
 
 }
 
 .all {
     justify-content: space-between;
-
+    text-align: center;
+    width: 1600px;
+    background-color: aqua;
 
 }
 
 .div-button {
     margin-right: 10px;
     text-align: center;
+   
+  
 }
 
-.first-button {
-    margin-right: 10px;
-    background-color: #2196F3;
-    border: 1px solid #2196F3;
-    padding: 10px 20px;
-    font-family: 'Roboto',
-        sans-serif;
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #fff;
-    border-radius: 4px;
-    font-weight: 600;
-}
 
 .a-button {
-    margin-right: 10px;
-    background-color: #F5F4FA;
-    border: 1px solid #F5F4FA;
-    padding: 10px 20px;
-    font-family: 'Roboto',
-        sans-serif;
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #212121;
-    border-radius: 4px;
-    font-weight: 600;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
 }
+
+.li-button {
+ margin: 10px;
+}
+
+.first-button:hover {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+background-color: #2196F3;
+}
+
 
 .ul-portfolio {
     list-style: none;
     margin: 0 auto;
-
-}
-
-.portfolio {
     width: 1600px;
 }
-
-
 
 
 .li-team {
     margin-bottom: 30px;
 }
 
-.h3-team {}
+.h3-team {
+
+}
 
 .footer {
     
@@ -339,18 +377,56 @@ text-align: center;
     color: rgba(255, 255, 255, 0.6);
 }
 
+.aa-address:hover {
+    color: #2196F3;
+}
+
+.a-address:hover {
+    color: #2196F3;
+}
+
 .li-address {
     list-style: none;
-    
 
 }
 
+
 .div-footer {
+
    
     padding-left: 215px;
     padding-top: 60px;
 }
 
+.li-span {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
 
+color: #FFFFFF;
+}
+ 
+.li-li-button {
+margin-right: 10px;
+background-color: #F5F4FA;
+border: 1px solid #F5F4FA;
+padding: 10px 20px;
+font-family: 'Roboto',
+sans-serif;
+font-size: 12px;
+text-transform: uppercase;
+color: #212121;
+border-radius: 4px;
+font-weight: 600;
+cursor: pointer;
+}
+
+.li-li-button:hover {
+    background-color: #2196F3;
+}
 
 
